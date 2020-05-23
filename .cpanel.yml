@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/beskerte/repositories/portfolio/
-    - /bin/cp -R ME2 $DEPLOYPATH
+    - export DEPLOYPATH=//home/beskerte/repositories/portfolio/
+    - /bin/cp -R $DEPLOYPATH
