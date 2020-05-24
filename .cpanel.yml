@@ -1,5 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=//home/beskerte/repositories/portfolio/
-    - /bin/cp -R ME2  $DEPLOYPATH
+    - export DEPLOYPATH=/home/beskerte/public_html/
+    - /bin/cp -R  fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R  scss $DEPLOYPATH
+    - /bin/cp -R contact.php $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
