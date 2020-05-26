@@ -1,6 +1,6 @@
 ---
 deployment:
-  task:
+  tasks:
     - export  DEPLOYPATH=/home/beskerte/public_html/
     - /bin/cp  -R fonts $DEPLOYPATH
     - /bin/cp  -R images $DEPLOYPATH
