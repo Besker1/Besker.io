@@ -1,10 +1,10 @@
 ---
-    deployment:
-      tasks:
-         - export DEPLOYPATH=/home/beskerte/public_html/
-         - /bin/cp  fonts $DEPLOYPATH
-         - /bin/cp  images $DEPLOYPATH
-         - /bin/cp  js $DEPLOYPATH
-         - /bin/cp  scss $DEPLOYPATH
-         - /bin/cp contact.php $DEPLOYPATH
-        - /bin/cp index.html $DEPLOYPATH
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/beskerte/public_html/
+    - /bin/cp  fonts $DEPLOYPATH
+    - /bin/cp  images $DEPLOYPATH
+    - /bin/cp  js $DEPLOYPATH
+    - /bin/cp  scss $DEPLOYPATH
+    - /bin/cp contact.php $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
